@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="exemple.xsl" type="text/xsl"?>
+<!DOCTYPE repertoire SYSTEM "repertoire.dtd">
+<repertoire
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="exmp.xsd">
+<repertoire>
+  <personne sexe="masculin">
+    <nom>Adli</nom>
+    <prenom>Kamal</prenom>
+    <adresse>
+      <numero>7</numero>
+      <voie type="impasse">impasse duu chemin</voie>
+      <codePostal>75015</codePostal>
+      <ville>Marrakech</ville>
+      <pays>Maroc</pays>
+    </adresse>
+    <telephones>
+      <telephone type="fixe">05 24 03 04 05</telephone>
+      <telephone type="partable">06 07 08 09 10</telephone>
+    </telephones>
+    <emails>
+      <email type="personnel">adli.kamal@gmail.com</email>
+    <email type="professionnel">adli.amal@societe.com</email>
+  </emails>
+  </personne>
+  <personne sexe="feminin">
+    <nom>Damir</nom>
+    <prenom>Imane</prenom>
+    <adresse>
+      <numero>28</numero>
+      <voie type="avenue">Avenue Hassan 2</voie>
+      <codePostal>13005</codePostal>
+      <ville>Casa</ville>
+      <pays>Maroc</pays>
+    </adresse>
+    <telephones>
+      <telephone type="bureau">05 23 06 07 08</telephone>
+    </telephones>
+    <emails>
+     <email type="professionnel">contact@damir.fr</email>
+    </emails>
+  </personne>
+    <personne sexe="masculin">
+    <nom>wafdi</nom>
+    <prenom>Samir</prenom>
+    <adresse>
+      <numero>24</numero>
+      <voie type="avenue">Avenue Allal Fasi</voie>
+      <codePostal>11004</codePostal>
+      <ville>Fes</ville>
+      <pays>Maroc</pays>
+    </adresse>
+    <telephones>
+      <telephone type="professionnel">05 23 05 07 09</telephone>
+    </telephones>
+  </personne>
+</repertoire>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+
+<xs:element name="repertoire">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="personne"/>
+        <xs:complexType>
+          <xs:sequence>
+            <xs:attribute name="feminin" type="xs:string" />
+            <xs:attribute name="masculin" type="xs:string" />
+            <xs:element name="nom" type="xs:string"/>
+            <xs:element name="prenom" type="xs:string"/>
+            <xs:element name="adresse">
+              <xs:complexType>
+                <xs:sequence>
+                 <xs:element name="numero" type="xs:integer"/>
+                 <xs:element name="voie" >
+                    <xs:complexType>
+                      <xs:sequence>
+                       <xs:attribute name="impasse" type="xs:string" />
+                       <xs:attribute name="avenue" type="xs:string" />
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                 <xs:element name="codePostal" type="xs:integer"/>
+                 <xs:element name="ville" type="xs:string"/>
+                 <xs:element name="pays" type="xs:string"/>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="telephones">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:attribute name="fixe" type="xs:integer" />
+                  <xs:attribute name="partable" type="xs:integer" />
+                  <xs:attribute name="bureau" type="xs:integer" />
+                  <xs:attribute name="professionnel" type="xs:integer" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="emails">
+            <xs:complexType>
+                <xs:sequence>
+                  <xs:attribute name="personnel" type="xs:string" />
+                  <xs:attribute name="professionnel" type="xs:string" />
+                </xs:sequence>
+              </xs:complexType>
+          </xs:sequence>
+        </xs:complexType>
+        </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

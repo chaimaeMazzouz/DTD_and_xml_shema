@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE note SYSTEM "note.dtd">
+<note
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="note.xsd">
+<note>
+  <to>Laila</to>
+  <from>Chaimae</from>
+  <heading>Say Hello</heading>
+  <body>Hello Friend!</body>
+</note>

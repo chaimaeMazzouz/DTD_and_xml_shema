@@ -1,0 +1,7 @@
+<!ELEMENT repertoire (personne)>
+<!ELEMENT personne (nom,prenom,adresse,telephones,emails)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT adresse (numero,voie,codePostal,ville,pays)>
+<!ELEMENT telephones (telephone)>
+<!ELEMENT emails (email)>
